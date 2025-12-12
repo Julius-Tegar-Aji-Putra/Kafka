@@ -59,13 +59,13 @@ docker exec -it kafka /opt/kafka/bin/kafka-console-producer.sh --topic ktp --boo
 ```
 
 ### 5. Simulasi Input Data
-Ketik data JSON simulasi di terminal Producer (Kanan), lalu tekan Enter:
+Ketik pesan simulasi di terminal Producer (Kanan), lalu tekan Enter:
 
-```json
-{"nik": "33740001", "nama": "Budi Santoso", "status": "WNI"}
+```
+Halo Dunia!!!
 ```
 
-Lihat ke terminal Consumer (Kiri), data akan muncul secara instan!
+Lihat ke terminal Consumer (Kiri), pesan akan muncul secara instan!
 
 ---
 
